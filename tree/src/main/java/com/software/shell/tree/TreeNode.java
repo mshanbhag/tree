@@ -109,6 +109,12 @@ public abstract class TreeNode<T> implements Iterable<TreeNode<T>>, Serializable
 	}
 
 	/**
+	 * Creates an instance of this class without setting the {@link #data}
+	 */
+	public TreeNode() {
+	}
+
+	/**
 	 * Returns the collection of the child nodes of the current node
 	 * with all of its proper descendants, if any
 	 * <p>
